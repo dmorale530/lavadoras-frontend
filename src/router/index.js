@@ -4,6 +4,7 @@ import Tables from "@/views/Tables.vue";
 import ProductPage from "@/views/ProductPage.vue";
 import Billing from "@/views/Billing.vue";
 import VirtualReality from "@/views/VirtualReality.vue";
+import Catalogue from "@/views/Catalogue.vue";
 import Profile from "@/views/Profile.vue";
 import Rtl from "@/views/Rtl.vue";
 import SignIn from "@/views/SignIn.vue";
@@ -29,6 +30,11 @@ const routes = [
     path: "/billing",
     name: "Billing",
     component: Billing,
+  },
+  {
+    path: "/catalogue",
+    name: "Catalogue",
+    component: Catalogue,
   },
   {
     path: "/virtual-reality",
